@@ -1,0 +1,969 @@
+﻿<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>CareSwift</title>
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/imgs/CareSwift (1).png" />
+    <!-- Template CSS -->
+    <link rel="stylesheet" href="assets/css/plugins/animate.min.css" />
+    <link rel="stylesheet" href="assets/css/main.css?v=5.6" />
+</head>
+
+<body>
+    <!-- Quick view -->
+    <div class="modal fade custom-modal" id="quickViewModal" tabindex="-1" aria-labelledby="quickViewModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-12 col-xs-12 mb-md-0 mb-sm-5">
+                            <div class="detail-gallery">
+                                <span class="zoom-icon"><i class="fi-rs-search"></i></span>
+                                <!-- MAIN SLIDES -->
+                                <div class="product-image-slider">
+                                    <figure class="border-radius-10">
+                                        <img src="assets/imgs/shop/011.jpg" alt="product image" />
+                                    </figure>
+                                    <figure class="border-radius-10">
+                                        <img src="assets/imgs/shop/022.jpg" alt="product image" />
+                                    </figure>
+                                    <figure class="border-radius-10">
+                                        <img src="assets/imgs/shop/033.jpg" alt="product image" />
+                                    </figure>
+                                    <figure class="border-radius-10">
+                                        <img src="assets/imgs/shop/04.jpg" alt="product image" />
+                                    </figure>
+                                    <figure class="border-radius-10">
+                                        <img src="assets/imgs/shop/06.jpg" alt="product image" />
+                                    </figure>
+                                    <figure class="border-radius-10">
+                                        <img src="assets/imgs/shop/bg.jpg" alt="product image" />
+                                    </figure>
+                                    <figure class="border-radius-10">
+                                        <img src="assets/imgs/05.jpg" alt="product image" />
+                                    </figure>
+                                </div>
+                                <!-- THUMBNAILS -->
+                                <div class="slider-nav-thumbnails">
+                                    <div><img src="assets/imgs/shop/011.jpg" alt="product image" /></div>
+                                    <div><img src="assets/imgs/shop/022.jpg" alt="product image" /></div>
+                                    <div><img src="assets/imgs/shop/033.jpg" alt="product image" /></div>
+                                    <div><img src="assets/imgs/shop/04.jpg" alt="product image" /></div>
+                                    <div><img src="assets/imgs/shop/06.jpg" alt="product image" /></div>
+                                    <div><img src="assets/imgs/shop/bg.jpg" alt="product image" /></div>
+                                    <div><img src="assets/imgs/05.jpg" alt="product image" /></div>
+                                </div>
+                            </div>
+                            <!-- End Gallery -->
+                        </div>
+                        <div class="col-md-6 col-sm-12 col-xs-12">
+                            <div class="detail-info pr-30 pl-30">
+                                <span class="stock-status out-stock"> Sale Off </span>
+                                <h3 class="title-detail"><a href="shop-product-right.html" class="text-heading">Services of CareSwift</a></h3>
+                                <div class="product-detail-rating">
+                                    <div class="product-rate-cover text-end">
+                                        <div class="product-rate d-inline-block">
+                                            <div class="product-rating" style="width: 90%"></div>
+                                        </div>
+                                        <span class="font-small ml-5 text-muted"> (32 reviews)</span>
+                                    </div>
+                                </div>
+                                <div class="clearfix product-price-cover">
+                                    <div class="product-price primary-color float-left">
+                                        <span class="current-price text-brand">Rs3800</span>
+                                        <span>
+                                            <span class="save-price font-md color3 ml-15">26% Off</span>
+                                            <span class="old-price font-md ml-15">Rs5200</span>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="detail-extralink mb-30">
+                                    <div class="detail-qty border radius">
+                                        <a href="#" class="qty-down"><i class="fi-rs-angle-small-down"></i></a>
+                                        <span class="qty-val">1</span>
+                                        <a href="#" class="qty-up"><i class="fi-rs-angle-small-up"></i></a>
+                                    </div>
+                                    <div class="product-extra-link2">
+                                        <button type="submit" class="button button-add-to-cart"><i class="fi-rs-shopping-cart"></i>Add to cart</button>
+                                    </div>
+                                </div>
+                                <div class="font-xs">
+                                    <ul>
+                                        <li class="mb-5">Service Provider: <span class="text-brand">Nest</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- Detail Info -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <header class="header-area header-style-1 header-style-5 header-height-2">
+        <div class="mobile-promotion">
+            <span>Grand opening, <strong>up to 15%</strong> off on all services. Only <strong>3 days</strong> left</span>
+        </div>
+        <div class="header-top header-top-ptb-1 d-none d-lg-block">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-xl-3 col-lg-4">
+                        <div class="header-info">
+                            <ul>
+                                <li><a href="page-about.htlm">About Us</a></li>
+                                <li><a href="page-account.html">My Account</a></li>
+                                <li><a href="shop-order.html">Order Tracking</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-4">
+                        <div class="text-center">
+                            <div id="news-flash" class="d-inline-block">
+                                <ul>
+                                    <li>100% Secure delivery without contacting the courier</li>
+                                    <li>Supper Value Deals - Save more with coupons</li>
+                                    <li>Trendy services, save up 35% off today</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4">
+                        <div class="header-info header-info-right">
+                            <ul>
+                                <li>Need help? Call Us: <strong class="text-brand"> +92 302 0427000</strong></li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-middle header-middle-ptb-1 d-none d-lg-block">
+            <div class="container">
+                <div class="header-wrap">
+                    <div class="logo logo-width-1">
+                        <a href="index.html"><img src="assets/imgs/theme/logo1.png" alt="logo" /></a>
+                    </div>
+                    <div class="header-right">
+                        <div class="search-style-2">
+                            <form action="#">
+                                <select class="select-active">
+                                    <option>All Categories</option>
+                                    <option>Laundary</option>
+                                    <option>Washing dishes</option>
+                                    <option>Maid Assistance</option>
+                                    <option>Pet Sitting</option>
+                                    <option>Educational Support</option>
+                                    <option>Cooking</option>
+                                </select>
+                                <input type="text" placeholder="Search for items..." />
+                            </form>
+                        </div>
+                        <div class="header-action-right">
+                            <div class="header-action-2">
+                                <div class="search-location">
+                                    <form action="#">
+                                        <select class="select-active">
+                                            <option>Your Location</option>
+                                            <option>Pakistan</option>
+                                            <option>Lahore</option>
+                                            <option>Karachi</option>
+                                            <option>Islamabad</option>
+                                            <option>Faisalabad</option>
+                                            <option>Gujranwala</option>
+                                            <option>Multan</option>
+                                            <option>Rawalpindi</option>
+                                            <option>Gujrat</option>
+                                        </select>
+                                    </form>
+                                </div>
+                                
+                                <div class="header-action-icon-2">
+                                    <a class="mini-cart-icon" href="shop-cart.html">
+                                        <img alt="Nest" src="assets/imgs/theme/icons/icon-cart.svg" />
+                                        <span class="pro-count blue">2</span>
+                                    </a>
+                                    <a href="shop-cart.html"><span class="lable">Cart</span></a>
+                                    <div class="cart-dropdown-wrap cart-dropdown-hm2">
+                                        <ul>
+                                            <li>
+                                                <div class="shopping-cart-img">
+                                                    <a href="shop-product-right.html"><img alt="Nest" src="assets/imgs/maid.jpg" /></a>
+                                                </div>
+                                                <div class="shopping-cart-title">
+                                                    <h4><a href="shop-product-right.html">Nanny Service</a></h4>
+                                                    <h4><span>1 × </span>70000.00RS</h4>
+                                                </div>
+                                                <div class="shopping-cart-delete">
+                                                    <a href="#"><i class="fi-rs-cross-small"></i></a>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="shopping-cart-img">
+                                                    <a href="shop-product-right.html"><img alt="Nest" src="assets/imgs/maid2.jpg" /></a>
+                                                </div>
+                                                <div class="shopping-cart-title">
+                                                    <h4><a href="shop-product-right.html">Cleaning Service</a></h4>
+                                                    <h4><span>1 × </span>3200.00RS</h4>
+                                                </div>
+                                                <div class="shopping-cart-delete">
+                                                    <a href="#"><i class="fi-rs-cross-small"></i></a>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <div class="shopping-cart-footer">
+                                            <div class="shopping-cart-total">
+                                                <h4>Total <span>Rs10200.00</span></h4>
+                                            </div>
+                                            <div class="shopping-cart-button">
+                                                <a href="shop-cart.html" class="outline">View cart</a>
+                                                <a href="shop-checkout.html">Checkout</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="header-action-icon-2">
+                                    <a href="page-account.html">
+                                        <img class="svgInject" alt="Nest" src="assets/imgs/theme/icons/icon-user.svg" />
+                                    </a>
+                                    <a href="page-account.html"><span class="lable ml-0">Account</span></a>
+                                    <div class="cart-dropdown-wrap cart-dropdown-hm2 account-dropdown">
+                                        <ul>
+                                            <li>
+                                                <a href="page-account.html"><i class="fi fi-rs-user mr-10"></i>My Account</a>
+                                            </li>
+                                            <li>
+                                                <a href="page-account.html"><i class="fi fi-rs-location-alt mr-10"></i>Request Tracking</a>
+                                            </li>
+                                            <li>
+                                                <a href="page-account.html"><i class="fi fi-rs-label mr-10"></i>My Voucher</a>
+                                            </li>
+                                            <li>
+                                                <a href="shop-wishlist.html"><i class="fi fi-rs-heart mr-10"></i>My Wishlist</a>
+                                            </li>
+                                            <li>
+                                                <a href="page-account.html"><i class="fi fi-rs-settings-sliders mr-10"></i>Setting</a>
+                                            </li>
+                                            <li>
+                                                <a href="page-login.html"><i class="fi fi-rs-sign-out mr-10"></i>Sign out</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="header-bottom header-bottom-bg-color sticky-bar">
+            <div class="container">
+                <div class="header-wrap header-space-between position-relative">
+                    <div class="logo logo-width-1 d-block d-lg-none">
+                        <a href="index.html"><img src="assets/imgs/theme/logo.svg" alt="logo" /></a>
+                    </div>
+                    <div class="header-nav d-none d-lg-flex">
+                        <div class="main-categori-wrap d-none d-lg-block">
+                            <a class="categories-button-active" href="#">
+                                <span class="fi-rs-apps"></span> <span class="et">Trending</span> Categories
+                                <i class="fi-rs-angle-down"></i>
+                            </a>
+                            <div class="categories-dropdown-wrap categories-dropdown-active-large font-heading">
+                                <div class="d-flex categori-dropdown-inner">
+                                    <ul>
+                                        <li>
+                                            <a href="shop-grid-right.html"> <img src="assets/imgs/theme/icons/category-1.svg" alt="" />Cooking</a>
+                                        </li>
+                                        <li>
+                                            <a href="shop-grid-right.html"> <img src="assets/imgs/theme/icons/category-2.svg" alt="" />Laundary</a>
+                                        </li>
+                                        <li>
+                                            <a href="shop-grid-right.html"> <img src="assets/imgs/theme/icons/category-3.svg" alt="" />Cleaning</a>
+                                        </li>
+                                        <li>
+                                            <a href="shop-grid-right.html"> <img src="assets/imgs/theme/icons/category-4.svg" alt="" />Nanny services</a>
+                                        </li>
+                                        <li>
+                                            <a href="shop-grid-right.html"> <img src="assets/imgs/theme/icons/category-5.svg" alt="" />Pet Assistance</a>
+                                        </li>
+                                    </ul>
+                                    <ul class="end">
+                                        <li>
+                                            <a href="shop-grid-right.html"> <img src="assets/imgs/theme/icons/category-6.svg" alt="" />Baking</a>
+                                        </li>
+                                        <li>
+                                            <a href="shop-grid-right.html"> <img src="assets/imgs/theme/icons/category-7.svg" alt="" />Apartment cleaning</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="more_slide_open" style="display: none">
+                                    <div class="d-flex categori-dropdown-inner">
+                                        <ul>
+                                            <li>
+                                                <a href="shop-grid-right.html"> <img src="assets/imgs/theme/icons/icon-1.svg" alt="" />Dishes Cleaning</a>
+                                            </li>
+                                        </ul>
+                                        <ul class="end">
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="more_categories"><span class="icon"></span> <span class="heading-sm-1">Show more...</span></div>
+                            </div>
+                        </div>
+                        <div class="main-menu main-menu-padding-1 main-menu-lh-2 d-none d-lg-block font-heading">
+                            <nav>
+                                <ul>
+                                    <li><a class="active" href="index.html">Home</a></li>
+                                    <li><a href="page-about.html">About</a></li>
+                                    <li><a href="vendor-guide.html">Service provider </a></li>
+                                    <li><a href="blog-category-grid.html">Blog </a></li>
+                                    <li><a href="page-contact.html">Contact</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="hotline d-none d-lg-flex">
+                        <img src="assets/imgs/theme/icons/icon-headphone-white.svg" alt="hotline" />
+                        <p>+92 302 0427000<span>24/7 Support Center</span></p>
+                    </div>
+                    <div class="header-action-icon-2 d-block d-lg-none">
+                        <div class="burger-icon burger-icon-white">
+                            <span class="burger-icon-top"></span>
+                            <span class="burger-icon-mid"></span>
+                            <span class="burger-icon-bottom"></span>
+                        </div>
+                    </div>
+                    <div class="header-action-right d-block d-lg-none">
+                        <div class="header-action-2">
+                            <div class="header-action-icon-2">
+                                <a href="shop-wishlist.html">
+                                    <img alt="Nest" src="assets/imgs/theme/icons/icon-heart.svg" />
+                                    <span class="pro-count white">4</span>
+                                </a>
+                            </div>
+                            <div class="header-action-icon-2">
+                                <a class="mini-cart-icon" href="#">
+                                    <img alt="Nest" src="assets/imgs/theme/icons/icon-cart.svg" />
+                                    <span class="pro-count white">2</span>
+                                </a>
+                                <div class="cart-dropdown-wrap cart-dropdown-hm2">
+                                    <ul>
+                                        <li>
+                                            <div class="shopping-cart-img">
+                                                <a href="shop-product-right.html"><img alt="Nest" src="assets/imgs/maid.jpg" /></a>
+                                            </div>
+                                            <div class="shopping-cart-title">
+                                                <h4><a href="shop-product-right.html">Cleaning</a></h4>
+                                                <h3><span>1 × </span>Rs3000</h3>
+                                            </div>
+                                            <div class="shopping-cart-delete">
+                                                <a href="#"><i class="fi-rs-cross-small"></i></a>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="shopping-cart-img">
+                                                <a href="shop-product-right.html"><img alt="Nest" src="assets/imgs/maid2.jpg" /></a>
+                                            </div>
+                                            <div class="shopping-cart-title">
+                                                <h4><a href="shop-product-right.html">Laundary</a></h4>
+                                                <h3><span>1 × </span>Rs3500</h3>
+                                            </div>
+                                            <div class="shopping-cart-delete">
+                                                <a href="#"><i class="fi-rs-cross-small"></i></a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <div class="shopping-cart-footer">
+                                        <div class="shopping-cart-total">
+                                            <h4>Total <span>Rs6500.00</span></h4>
+                                        </div>
+                                        <div class="shopping-cart-button">
+                                            <a href="shop-cart.html">View cart</a>
+                                            <a href="shop-checkout.html">Checkout</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="mobile-header-active mobile-header-wrapper-style">
+        <div class="mobile-header-wrapper-inner">
+            <div class="mobile-header-top">
+                <div class="mobile-header-logo">
+                    <a href="index.html"><img src="assets/imgs/CareSwift (1).png" alt="logo" /></a>
+                </div>
+                <div class="mobile-menu-close close-style-wrap close-style-position-inherit">
+                    <button class="close-style search-close">
+                        <i class="icon-top"></i>
+                        <i class="icon-bottom"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="mobile-header-content-area">
+                <div class="mobile-search search-style-3 mobile-header-border">
+                    <form action="#">
+                        <input type="text" placeholder="Search for items…" />
+                        <button type="submit"><i class="fi-rs-search"></i></button>
+                    </form>
+                </div>
+                <div class="mobile-menu-wrap mobile-header-border">
+                    <!-- mobile menu start -->
+                    <nav>
+                        <ul class="mobile-menu font-heading">
+                                <li><a class="active" href="index.html">Home</a></li>
+                                <li><a href="page-about.html">About</a></li>
+                                <li><a href="vendor-guide.html">Service provider </a></li>
+                                <li><a href="blog-category-grid.html">Blog </a></li>
+                                <li><a href="page-contact.html">Contact</a></li>
+                            
+                            
+                            <li class="menu-item-has-children">
+                                <a href="#">Pages</a>
+                                <ul class="dropdown">
+                                    <li><a href="page-about.html">About Us</a></li>
+                                    <li><a href="page-contact.html">Contact</a></li>
+                                    <li><a href="page-account.html">My Account</a></li>
+                                    <li><a href="page-login.html">Login</a></li>
+                                    <li><a href="page-register.html">Register</a></li>
+                                    <li><a href="page-forgot-password.html">Forgot password</a></li>
+                                    <li><a href="page-reset-password.html">Reset password</a></li>
+                                    <li><a href="page-purchase-guide.html">Purchase Guide</a></li>
+                                    <li><a href="page-privacy-policy.html">Privacy Policy</a></li>
+                                    <li><a href="page-terms.html">Terms of Service</a></li>
+                                    <li><a href="page-404.html">404 Page</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu-item-has-children">
+                                <a href="#">Language</a>
+                                <ul class="dropdown">
+                                    <li><a href="#">Pakistan</a></li>
+                                    <li><a href="#">Japan</a></li>
+                                    <li><a href="#">Arab</a></li>
+                                    <li><a href="#">English</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!-- mobile menu end -->
+                </div>
+                <div class="mobile-header-info-wrap">
+                    <div class="single-mobile-header-info">
+                        <a href="page-contact.html"><i class="fi-rs-marker"></i> Our location </a>
+                    </div>
+                    <div class="single-mobile-header-info">
+                        <a href="page-login.html"><i class="fi-rs-user"></i>Log In / Sign Up </a>
+                    </div>
+                    <div class="single-mobile-header-info">
+                        <a href="#"><i class="fi-rs-headphones"></i>(+92) 302 0427000 </a>
+                    </div>
+                </div>
+                <div class="mobile-social-icon mb-50">
+                    <h6 class="mb-15">Follow Us</h6>
+                    <a href="#"><img src="assets/imgs/theme/icons/icon-facebook-white.svg" alt="" /></a>
+                    <a href="#"><img src="assets/imgs/theme/icons/icon-twitter-white.svg" alt="" /></a>
+                    <a href="#"><img src="assets/imgs/theme/icons/icon-instagram-white.svg" alt="" /></a>
+                    <a href="#"><img src="assets/imgs/theme/icons/icon-pinterest-white.svg" alt="" /></a>
+                    <a href="#"><img src="assets/imgs/theme/icons/icon-youtube-white.svg" alt="" /></a>
+                </div>
+                <div class="site-copyright">Copyright 2024 © CareSwift. All rights reserved. Powered by CareSwift.</div>
+            </div>
+        </div>
+    </div>
+    <!--End header-->
+    <main class="main">
+        <div class="page-header breadcrumb-wrap">
+            <div class="container">
+                <div class="breadcrumb">
+                    <a href="index.html" rel="nofollow"><i class="fi-rs-home mr-5"></i>Home</a>
+                    <span></span> <a href="shop-grid-right.html">Blog</a> <span></span> Navigating the Challenges of Relocation: How CareSwift's Shifting Services Make Moving a Breeze
+                </div>
+            </div>
+        </div>
+        <div class="page-content mb-50">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-11 col-lg-12 m-auto">
+                        <div class="row">
+                            <div class="col-lg-9">
+                                <div class="single-page pt-50 pr-30">
+                                    <div class="single-header style-2">
+                                        <div class="row">
+                                            <div class="col-xl-10 col-lg-12 m-auto">
+                                                <h6 class="mb-10"><a href="#">Blog</a></h6>
+                                                <h2 class="mb-10">Navigating the Challenges of Relocation: How CareSwift's Shifting Services Make Moving a Breeze</h2>
+                                                <div class="single-header-meta">
+                                                    <div class="entry-meta meta-1 font-xs mt-15 mb-15">
+                                                        <a class="author-avatar" href="#">
+                                                            <img class="img-circle" src="assets/imgs/blog/author-1.png" alt="" />
+                                                        </a>
+                                                        <span class="post-by">By <a href="#">Zain Fatima</a></span>
+                                                        <span class="post-on has-dot">2 hours ago</span>
+                                                        <span class="time-reading has-dot">8 mins read</span>
+                                                    </div>
+                                                    <div class="social-icons single-share">
+                                                        <ul class="text-grey-5 d-inline-block">
+                                                            <li class="mr-5">
+                                                                <a href="#"><img src="assets/imgs/theme/icons/icon-bookmark.svg" alt="" /></a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#"><img src="assets/imgs/theme/icons/icon-heart-2.svg" alt="" /></a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <figure class="single-thumbnail">
+                                        <img src="assets/imgs/m8.avif" alt="" style="margin-left: 80px;"/>
+                                    </figure>
+                                    <div class="single-content">
+                                        <div class="row">
+                                            <div class="col-xl-10 col-lg-12 m-auto">
+                                                <p class="single-excerpt">Moving to a new home or office is undoubtedly an exciting prospect, but the process of relocation often comes with its fair share of challenges. At CareSwift, we understand the complexities of shifting and aim to alleviate the stress associated with moving.</p>
+                                                <p>In this blog post, we'll explore the challenges of relocation and how our dedicated shifting services can turn this endeavor into a seamless and enjoyable experience.</p>
+                                                <p>Relocating involves numerous logistical challenges, from packing and organizing belongings to coordinating transportation. The stress of ensuring a smooth transition can be overwhelming, especially for those balancing work, family, and other commitments. CareSwift's shifting services are designed to take the burden off your shoulders, allowing you to focus on the excitement of your new journey.</p>
+                                                <h5 class="mt-50">Tailored shifting solutions</h5>
+                                                <p>One size does not fit all when it comes to shifting services. CareSwift offers tailored solutions to meet the unique requirements of each relocation project. Whether you're moving locally or across borders, our platform connects you with experienced professionals who specialize in providing comprehensive shifting services. From packing and loading to transportation and unpacking, our experts ensure a hassle-free move.</p>
+                                                <img class="mb-30" src="assets/imgs/m11.avif" alt="" />
+                                                <p>One of the most daunting aspects of relocation is ensuring the safety of delicate and valuable items. CareSwift's shifting services prioritize the professional handling of fragile belongings. Our experts use the appropriate packing materials and techniques to secure items such as glassware, artwork, and electronics, ensuring they reach the destination in pristine condition.</p>
+                                                <blockquote>
+                                                    <p>
+                                                        "Embrace the adventure of relocation with CareSwift – where every change is a seamless transition towards a brighter and better home."
+                                                    </p>
+                                                </blockquote>
+                                                <p>CareSwift's shifting services are more than just a solution for relocation; they are a commitment to making the moving process enjoyable and efficient. Say goodbye to the stresses of packing and transporting, and let our dedicated professionals handle every aspect of your move. Experience the convenience and peace of mind that come with CareSwift's shifting services, turning your relocation journey into a positive and memorable experience.</p>
+                                                <!--Entry bottom-->
+                                                <div class="entry-bottom mt-50 mb-30">
+                                                    <div class="tags w-50 w-sm-100">
+                                                        <a href="blog-category-big.html" rel="tag" class="hover-up btn btn-sm btn-rounded mr-10">Supplies</a>
+                                                        <a href="blog-category-big.html" rel="tag" class="hover-up btn btn-sm btn-rounded mr-10">nature</a>
+                                                        <a href="blog-category-big.html" rel="tag" class="hover-up btn btn-sm btn-rounded mr-10">shifting</a>
+                                                    </div>
+                                                    <div class="social-icons single-share">
+                                                        <ul class="text-grey-5 d-inline-block">
+                                                            <li><strong class="mr-10">Share this:</strong></li>
+                                                            <li class="social-facebook">
+                                                                <a href="#"><img src="assets/imgs/theme/icons/icon-facebook.svg" alt="" /></a>
+                                                            </li>
+                                                            <li class="social-twitter">
+                                                                <a href="#"><img src="assets/imgs/theme/icons/icon-twitter.svg" alt="" /></a>
+                                                            </li>
+                                                            <li class="social-instagram">
+                                                                <a href="#"><img src="assets/imgs/theme/icons/icon-instagram.svg" alt="" /></a>
+                                                            </li>
+                                                            <li class="social-linkedin">
+                                                                <a href="#"><img src="assets/imgs/theme/icons/icon-pinterest.svg" alt="" /></a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <!--Author box-->
+                                                <div class="author-bio p-30 mt-50 border-radius-15 bg-white">
+                                                    <div class="author-image mb-30">
+                                                        <a href="author.html"><img src="assets/imgs/blog/author-1.png" alt="" class="avatar" /></a>
+                                                        <div class="author-infor">
+                                                            <h5 class="mb-5">Zain Fatima</h5>
+                                                            <p class="mb-0 text-muted font-xs">
+                                                                <span class="mr-10">06 posts</span>
+                                                                <span class="has-dot">Since 2022</span>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="author-des">
+                                                        <p>Welcome to CareSwift! I'm passionate about providing you with top-notch services, from expert advice on maintaining a clean home to seamless relocation experiences. Our commitment is inspired by your needs and fueled by a dedication to excellence. Lorem ipsum dolor sit amet, consectetur adipiscing elit. At CareSwift, your satisfaction is our priority.</p>
+                                                    </div>
+                                                </div>
+                                                <!--Comment form-->
+                                                <div class="comment-form">
+                                                    <h3 class="mb-15">Leave a Comment</h3>
+                                                    <div class="product-rate d-inline-block mb-30"></div>
+                                                    <div class="row">
+                                                        <div class="col-lg-9 col-md-12">
+                                                            <form class="form-contact comment_form mb-50" action="#" id="commentForm">
+                                                                <div class="row">
+                                                                    <div class="col-12">
+                                                                        <div class="form-group">
+                                                                            <textarea class="form-control w-100" name="comment" id="comment" cols="30" rows="9" placeholder="Write Comment"></textarea>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-sm-6">
+                                                                        <div class="form-group">
+                                                                            <input class="form-control" name="name" id="name" type="text" placeholder="Name" />
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-sm-6">
+                                                                        <div class="form-group">
+                                                                            <input class="form-control" name="email" id="email" type="email" placeholder="Email" />
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-12">
+                                                                        <div class="form-group">
+                                                                            <input class="form-control" name="website" id="website" type="text" placeholder="Website" />
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="form-group">
+                                                                    <button type="submit" class="button button-contactForm">Post Comment</button>
+                                                                </div>
+                                                            </form>
+                                                            <div class="comments-area">
+                                                                <h3 class="mb-30">Client Reviews</h3>
+                                                                <div class="comment-list">
+                                                                    <div class="single-comment justify-content-between d-flex mb-30">
+                                                                        <div class="user justify-content-between d-flex">
+                                                                            <div class="thumb text-center">
+                                                                                <img src="assets/imgs/blog/author-2.png" alt="User1" />
+                                                                                <a href="#" class="font-heading text-brand">Maria</a>
+                                                                            </div>
+                                                                            <div class="desc">
+                                                                                <div class="d-flex justify-content-between mb-10">
+                                                                                    <div class="d-flex align-items-center">
+                                                                                        <span class="font-xs text-muted">January 10, 2023 at 2:30 pm </span>
+                                                                                    </div>
+                                                                                    <div class="product-rate d-inline-block">
+                                                                                        <div class="product-rating" style="width: 80%"></div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <p class="mb-10">Exceptional service! The maid provided by CareSwift is professional, courteous, and efficient. I highly recommend their services. <a href="#" class="reply">Reply</a></p>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="single-comment justify-content-between d-flex mb-30 ml-30">
+                                                                        <div class="user justify-content-between d-flex">
+                                                                            <div class="thumb text-center">
+                                                                                <img src="assets/imgs/blog/author-3.png" alt="User2" />
+                                                                                <a href="#" class="font-heading text-brand">Saba</a>
+                                                                            </div>
+                                                                            <div class="desc">
+                                                                                <div class="d-flex justify-content-between mb-10">
+                                                                                    <div class="d-flex align-items-center">
+                                                                                        <span class="font-xs text-muted">January 12, 2023 at 4:45 pm </span>
+                                                                                    </div>
+                                                                                    <div class="product-rate d-inline-block">
+                                                                                        <div class="product-rating" style="width: 90%"></div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <p class="mb-10">CareSwift has been a lifesaver for my household. The nanny they provided is wonderful with the children and very reliable. <a href="#" class="reply">Reply</a></p>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="single-comment justify-content-between d-flex">
+                                                                        <div class="user justify-content-between d-flex">
+                                                                            <div class="thumb text-center">
+                                                                                <img src="assets/imgs/blog/author-4.png" alt="User3" />
+                                                                                <a href="#" class="font-heading text-brand">Hafsa</a>
+                                                                            </div>
+                                                                            <div class="desc">
+                                                                                <div class="d-flex justify-content-between mb-10">
+                                                                                    <div class="d-flex align-items-center">
+                                                                                        <span class="font-xs text-muted">January 15, 2023 at 10:20 am </span>
+                                                                                    </div>
+                                                                                    <div class="product-rate d-inline-block">
+                                                                                        <div class="product-rating" style="width: 75%"></div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <p class="mb-10">Great experience with CareSwift's shifting services. They made the process smooth and hassle-free. Highly recommended. <a href="#" class="reply">Reply</a></p>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>                                                                                                                        
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 primary-sidebar sticky-sidebar pt-50">
+                                <div class="widget-area">
+                                    <div class="sidebar-widget-2 widget_search mb-50">
+                                        <div class="search-form">
+                                            <form action="#">
+                                                <input type="text" placeholder="Search…" />
+                                                <button type="submit"><i class="fi-rs-search"></i></button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="sidebar-widget widget-category-2 mb-50">
+                                        <h5 class="section-title style-1 mb-30">Category</h5>
+                                        <ul>
+                                            <li>
+                                                <a href= #> <img src="assets/imgs/theme/icons/category-1.svg" alt="" />Cooking</a><span class="count">30</span>
+                                            </li>
+                                            <li>
+                                                <a href= #> <img src="assets/imgs/theme/icons/category-2.svg" alt="" />Laundary</a><span class="count">35</span>
+                                            </li>
+                                            <li>
+                                                <a href=#> <img src="assets/imgs/theme/icons/category-3.svg" alt="" />Cleaning </a><span class="count">42</span>
+                                            </li>
+                                            <li>
+                                                <a href=#> <img src="assets/imgs/theme/icons/category-4.svg" alt="" />Pet Assistance</a><span class="count">68</span>
+                                            </li>
+                                            <li>
+                                                <a href=#> <img src="assets/imgs/theme/icons/category-5.svg" alt="" />Nanny services</a><span class="count">87</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <!--Tags-->
+                                    <div class="sidebar-widget widget-tags mb-50 pb-10">
+                                        <h5 class="section-title style-1 mb-30">Popular Tags</h5>
+                                        <ul class="tags-list">
+                                            <li class="hover-up">
+                                                <a href="blog-category-grid.html"><i class="fi-rs-cross mr-10"></i>Supply Shifting</a>
+                                            </li>
+                                            <li class="hover-up">
+                                                <a href="blog-category-grid.html"><i class="fi-rs-cross mr-10"></i>Maid Assistance</a>
+                                            </li>
+                                            <li class="hover-up">
+                                                <a href="blog-category-grid.html"><i class="fi-rs-cross mr-10"></i>Children Educational Support</a>
+                                            </li>
+                                            <li class="hover-up">
+                                                <a href="blog-category-grid.html"><i class="fi-rs-cross mr-10"></i>Cooking</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="banner-img wow fadeIn mb-50 animated d-lg-block d-none">
+                                        <img src="assets/imgs/banner/banner-11.png" alt="" />
+                                        <div class="banner-text">
+                                            <span>Oganic</span>
+                                            <h4>
+                                                Save 17% <br />
+                                                on <span class="text-brand">Oganic</span><br />
+                                                Juice
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="main">
+        <section class="newsletter mb-15">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="position-relative newsletter-inner">
+                            <div class="newsletter-content">
+                                <h2 class="mb-20">
+                                    Stay home & get your daily <br />
+                                    needs and services from our Website
+                                </h2>
+                                <p class="mb-45">Start Your Order with <span class="text-brand">CareSwift</span></p>
+                                <form class="form-subcriber d-flex">
+                                    <input type="email" placeholder="Your emaill address" />
+                                    <button class="btn" type="submit">Subscribe</button>
+                                </form>
+                            </div>
+                            <img src="assets/imgs/banner/01.png" alt="newsletter" height="400px"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="featured section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-1-5 col-md-4 col-12 col-sm-6 mb-md-4 mb-xl-0">
+                        <div class="banner-left-icon d-flex align-items-center wow fadeIn animated">
+                            <div class="banner-icon">
+                                <img src="assets/imgs/theme/icons/icon-1.svg" alt="" />
+                            </div>
+                            <div class="banner-text">
+                                <h3 class="icon-box-title">Best prices & offers</h3>
+                                <p>Orders Rs500 or more</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-1-5 col-md-4 col-12 col-sm-6">
+                        <div class="banner-left-icon d-flex align-items-center wow fadeIn animated">
+                            <div class="banner-icon">
+                                <img src="assets/imgs/theme/icons/icon-2.svg" alt="" />
+                            </div>
+                            <div class="banner-text">
+                                <h3 class="icon-box-title">Free delivery</h3>
+                                <p>24/7 amazing services</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-1-5 col-md-4 col-12 col-sm-6">
+                        <div class="banner-left-icon d-flex align-items-center wow fadeIn animated">
+                            <div class="banner-icon">
+                                <img src="assets/imgs/theme/icons/icon-3.svg" alt="" />
+                            </div>
+                            <div class="banner-text">
+                                <h3 class="icon-box-title">Great daily deal</h3>
+                                <p>When you sign up</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-1-5 col-md-4 col-12 col-sm-6">
+                        <div class="banner-left-icon d-flex align-items-center wow fadeIn animated">
+                            <div class="banner-icon">
+                                <img src="assets/imgs/theme/icons/icon-4.svg" alt="" />
+                            </div>
+                            <div class="banner-text">
+                                <h3 class="icon-box-title">Wide assortment</h3>
+                                <p>Mega Discounts</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-1-5 col-md-4 col-12 col-sm-6">
+                        <div class="banner-left-icon d-flex align-items-center wow fadeIn animated">
+                            <div class="banner-icon">
+                                <img src="assets/imgs/theme/icons/icon-5.svg" alt="" />
+                            </div>
+                            <div class="banner-text">
+                                <h3 class="icon-box-title">Easy returns</h3>
+                                <p>Within 30 days</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-1-5 col-md-4 col-12 col-sm-6 d-xl-none">
+                        <div class="banner-left-icon d-flex align-items-center wow fadeIn animated">
+                            <div class="banner-icon">
+                                <img src="assets/imgs/theme/icons/icon-6.svg" alt="" />
+                            </div>
+                            <div class="banner-text">
+                                <h3 class="icon-box-title">Safe delivery</h3>
+                                <p>Within 30 days</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-padding footer-mid">
+            <div class="container pt-15 pb-20">
+                <div class="row">
+                    <div class="col">
+                        <div class="widget-about font-md mb-md-3 mb-lg-3 mb-xl-0 wow animate__animated animate__fadeInUp" data-wow-delay="0">
+                            <div class="logo mb-30">
+                                <a href="index.html" class="mb-15"><img src="assets/imgs/theme/logo.png" alt="logo" /></a>
+                                <p class="font-lg text-heading">Awesome Maid Service Providing Website template</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-link-widget col wow animate__animated animate__fadeInUp" data-wow-delay=".1s">
+                        <h4 class="widget-title">Company</h4>
+                        <ul class="footer-list mb-sm-5 mb-md-0">
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Delivery Information</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms &amp; Conditions</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Support Center</a></li>
+                            <li><a href="#">Careers</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-link-widget col wow animate__animated animate__fadeInUp" data-wow-delay=".2s">
+                        <h4 class="widget-title">Account</h4>
+                        <ul class="footer-list mb-sm-5 mb-md-0">
+                            <li><a href="#">Sign In</a></li>
+                            <li><a href="#">View Cart</a></li>
+                            <li><a href="#">My Wishlist</a></li>
+                            <li><a href="#">Track My Order</a></li>
+                            <li><a href="#">Help Ticket</a></li>
+                            <li><a href="#">Shipping Details</a></li>
+                            <li><a href="#">Compare products</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-link-widget widget-install-app col wow animate__animated animate__fadeInUp" data-wow-delay=".5s">
+                        <h4 class="widget-title">Contact Info</h4>
+                        <ul class="contact-infor">
+                            <li><img src="assets/imgs/theme/icons/icon-location.svg" alt="" /><strong>Address: </strong> <span>Iqbal Town Lahore</span></li>
+                            <li><img src="assets/imgs/theme/icons/icon-contact.svg" alt="" /><strong>Call Us:</strong><span>(+92) 302 0427887</span></li>
+                            <li><img src="assets/imgs/theme/icons/icon-email-2.svg" alt="" /><strong>Email:</strong><span>info@careswift.com</span></li>
+                            <li><img src="assets/imgs/theme/icons/icon-clock.svg" alt="" /><strong>Hours:</strong><span>10:00 - 8:00, Mon - Sat</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="container pb-30">
+            <div class="row align-items-center">
+                <div class="col-12 mb-30">
+                    <div class="footer-bottom"></div>
+                </div>
+                <div class="col-xl-4 col-lg-6 col-md-6">
+                    <p class="font-sm mb-0">&copy; 2024, <strong class="text-brand">CareSwift</strong> - Services Providing Website <br />All rights reserved</p>
+                </div>
+                <div class="col-xl-4 col-lg-6 text-center d-none d-xl-block">
+                    <div class="hotline d-lg-inline-flex mr-30">
+                        <img src="assets/imgs/theme/icons/phone-call.svg" alt="hotline" />
+                        <p>+92 302 0420000<span>Working 8:00 AM - 9:00 PM</span></p>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6 col-md-6 text-end d-none d-md-block">
+                    <div class="mobile-social-icon">
+                        <h6>Follow Us</h6>
+                        <a href="#"><img src="assets/imgs/theme/icons/icon-facebook-white.svg" alt="" /></a>
+                        <a href="#"><img src="assets/imgs/theme/icons/icon-twitter-white.svg" alt="" /></a>
+                        <a href="#"><img src="assets/imgs/theme/icons/icon-instagram-white.svg" alt="" /></a>
+                        <a href="#"><img src="assets/imgs/theme/icons/icon-pinterest-white.svg" alt="" /></a>
+                        <a href="#"><img src="assets/imgs/theme/icons/icon-youtube-white.svg" alt="" /></a>
+                    </div>
+                    <p class="font-sm">Up to 15% discount on your first subscribe</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+   
+    <!-- Preloader Start -->
+    <div id="preloader-active">
+        <div class="preloader d-flex align-items-center justify-content-center">
+            <div class="preloader-inner position-relative">
+                <div class="text-center">
+                    <img src="assets/imgs/theme/loading.gif" alt="" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Vendor JS-->
+    <script src="assets/js/vendor/modernizr-3.6.0.min.js"></script>
+    <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/vendor/jquery-migrate-3.3.0.min.js"></script>
+    <script src="assets/js/vendor/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/plugins/slick.js"></script>
+    <script src="assets/js/plugins/jquery.syotimer.min.js"></script>
+    <script src="assets/js/plugins/wow.js"></script>
+    <script src="assets/js/plugins/perfect-scrollbar.js"></script>
+    <script src="assets/js/plugins/magnific-popup.js"></script>
+    <script src="assets/js/plugins/select2.min.js"></script>
+    <script src="assets/js/plugins/waypoints.js"></script>
+    <script src="assets/js/plugins/counterup.js"></script>
+    <script src="assets/js/plugins/jquery.countdown.min.js"></script>
+    <script src="assets/js/plugins/images-loaded.js"></script>
+    <script src="assets/js/plugins/isotope.js"></script>
+    <script src="assets/js/plugins/scrollup.js"></script>
+    <script src="assets/js/plugins/jquery.vticker-min.js"></script>
+    <script src="assets/js/plugins/jquery.theia.sticky.js"></script>
+    <script src="assets/js/plugins/jquery.elevatezoom.js"></script>
+    <!-- Template  JS -->
+    <script src="./assets/js/main.js?v=5.6"></script>
+    <script src="./assets/js/shop.js?v=5.6"></script>
+</body>
+
+</html>
